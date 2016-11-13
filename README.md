@@ -1,0 +1,1 @@
+Example of [MinimalViewer](https://github.com/MiguelBel/MinimalViewer)

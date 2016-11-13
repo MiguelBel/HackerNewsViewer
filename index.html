@@ -1,0 +1,33 @@
+<html>
+<head>
+
+  <title>Minimal Viewer</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet" type="text/css">
+  <link href="css/app.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/javascript" src="minimal_viewer.js"></script>
+  <script type="text/javascript">
+    MinimalViewer.initialize(
+      '#root',
+      [
+        {
+          title: 'HackerNews',
+          identifier: 'hackernews',
+          url: 'https://polar-ridge-70990.herokuapp.com',
+          relations: {
+            ElementKey: 'id',
+            Title: 'title',
+            Subtitle: 'domain',
+            Link: 'url'
+          },
+          color: 'black'
+        }
+      ]
+    )
+  </script>
+</body>
+</html>
